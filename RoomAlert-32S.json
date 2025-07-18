@@ -20,18 +20,18 @@
       }
     },
     "kpi1": {
-      "name": "Temperature in Data Center"
+      "name": "Internal Temperature Sensor in Fahrenheit"
     },
     "kpi2": {
-      "name": "Temperature in Lower DC"
+      "name": "Internal Temperature Sensor in Celsius"
     },
     "kpi3": {
-      "name": "Temperature in UPS Room"
+      "name": "Internal Humidity Sensor"
     },
     "collection": {
       "outputPoints": [
         {
-          "name": "Temperature in Data Center",
+          "name": "Internal Temperature Sensor in Fahrenheit",
           "pointType": "NUMERIC",
           "units": "FAHRENHEIT",
           "precision": 0,
@@ -72,7 +72,7 @@
           }
         },
         {
-          "name": "Temperature in Lower DC",
+          "name": "Internal Temperature Sensor in Celsius",
           "pointType": "NUMERIC",
           "units": "FAHRENHEIT",
           "precision": 0,
@@ -105,7 +105,7 @@
             "valueConversion": "DEFAULT"
           },
           "snmpConfig": {
-            "oid": "1.3.6.1.4.1.20916.1.11.1.2.1.2.0",
+            "oid": "1.3.6.1.4.1.20916.1.11.1.1.1.2.0",
             "dataType": "INTEGER_TYPE",
             "normalRangeMin": "-infinity",
             "normalRangeMax": "Infinity",
@@ -113,9 +113,9 @@
           }
         },
         {
-          "name": "Temperature in UPS Room",
+          "name": "Internal Humidity Sensor",
           "pointType": "NUMERIC",
-          "units": "FAHRENHEIT",
+          "units": "PERCENT",
           "precision": 0,
           "propagateErrors": true,
           "writable": false,
@@ -146,7 +146,7 @@
             "valueConversion": "DEFAULT"
           },
           "snmpConfig": {
-            "oid": "1.3.6.1.4.1.20916.1.11.1.2.2.2.0",
+            "oid": "1.3.6.1.4.1.20916.1.11.1.1.2.0.0",
             "dataType": "INTEGER_TYPE",
             "normalRangeMin": "-infinity",
             "normalRangeMax": "Infinity",
@@ -154,7 +154,7 @@
           }
         },
         {
-          "name": "Switch Sensor",
+          "name": "Switch Sensor 1",
           "pointType": "BOOLEAN",
           "writable": false,
           "alarmConfig": {
