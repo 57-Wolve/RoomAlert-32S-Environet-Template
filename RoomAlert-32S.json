@@ -432,10 +432,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 9",
           "pointType": "BOOLEAN",
@@ -470,10 +467,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 10",
           "pointType": "BOOLEAN",
@@ -508,10 +502,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 11",
           "pointType": "BOOLEAN",
@@ -546,10 +537,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 12",
           "pointType": "BOOLEAN",
@@ -584,10 +572,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 13",
           "pointType": "BOOLEAN",
@@ -622,10 +607,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 14",
           "pointType": "BOOLEAN",
@@ -660,10 +642,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 15",
           "pointType": "BOOLEAN",
@@ -698,10 +677,7 @@
             "normalRangeMax": "Infinity",
             "outOfNormalLimit": null
           }
-        }
-      ]
-    },
-    {
+        },
         {
           "name": "Switch Sensor 16",
           "pointType": "BOOLEAN",
@@ -738,7 +714,7 @@
           }
         }
       ]
-    }
+    },
     "circuits": []
   }
 }
